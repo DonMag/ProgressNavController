@@ -186,6 +186,7 @@ class MyBaseVC: UIViewController {
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
+		// maybe some stuff common to the "step" controllers
 	}
 	
 }
@@ -195,6 +196,8 @@ class Step1VC: MyBaseVC {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		myStepNumber = 1
+		
+		// maybe some other stuff specific to this "step"
 	}
 	
 }
@@ -203,6 +206,8 @@ class Step2VC: MyBaseVC {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		myStepNumber = 2
+		
+		// maybe some other stuff specific to this "step"
 	}
 	
 }
@@ -211,6 +216,8 @@ class Step3VC: MyBaseVC {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		myStepNumber = 3
+		
+		// maybe some other stuff specific to this "step"
 	}
 	
 }
@@ -219,6 +226,8 @@ class Step4VC: MyBaseVC {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		myStepNumber = 4
+		
+		// maybe some other stuff specific to this "step"
 	}
 	
 }
